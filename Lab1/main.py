@@ -1,4 +1,4 @@
-import random
+﻿import random
 import math
 
 
@@ -28,5 +28,5 @@ while True:
     A = random.randint(2**100, 2**101)
     if Ferma(A, k):
         print('Вероятность того что число:' + A.__str__() + ' простое, равна: ' + (1 - (1/2)**k).__str__())
-        print(i)
+        print('Номер проверки: ' + i.__str__())
     i += 1
