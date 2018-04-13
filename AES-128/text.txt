@@ -1,0 +1,9 @@
+The optional arguments flags and dontinherit control which future statements (see PEP 236) affect the compilation of source.
+If neither is present (or both are zero) the code is compiled with those future statements that are in effect in the code that is calling compile().
+If the flags argument is given and dont_inherit is not (or is zero) then the future statements specified by the flags argument are used in addition to those that would be used anyway.
+If dontinherit is a non-zero integer then the flags argument is it the future statements in effect around the call to compile are ignored
+Вокруг Сирии назрел новый кризис, который может привести к потере контроля над ситуацией у всех сторон.
+Причина эскалации — новые сообщения о применении правительством Сирии химического оружия против мирных жителей.
+США считают Россию ответственной за действия сирийских властей и грозят нанести ракетные удары по арабской республике.
+Под вопросом участие в атаке Великобритании и Франции. Россия утверждает, что сообщения о химатаке — фейк, провокация.
+Данные о химатаках в стране появлялись и раньше, США не раз порывались ответить. В последние дни ситуация серьезно накалилась.
